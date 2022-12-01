@@ -1,0 +1,130 @@
+/* page 2에 말풍선 */
+
+.icon-l{
+  display: block;
+  list-style: none;
+  margin-right: 100px;
+}
+.icon-r{
+  display: block;
+  list-style: none;
+  margin-left: 60px;
+}
+#bubble-lt {
+position: relative;
+background: #b1afff;
+border-radius: .4em;
+  margin: 20px;
+}
+#bubble-lt:after {
+content: '';
+position: absolute;
+right: 0;
+top: 50%;
+width: 0;
+height: 0;
+border: 36px solid transparent;
+border-left-color: #b1afff;
+border-right: 0;
+border-bottom: 0;
+margin-top: -18px;
+margin-right: -36px;
+}
+#bubble-lc {
+position: relative;
+background: #b1afff;
+border-radius: .4em;
+  margin: 20px;
+}
+#bubble-lc:after {
+content: '';
+position: absolute;
+right: 0;
+top: 50%;
+width: 0;
+height: 0;
+border: 36px solid transparent;
+border-left-color: #b1afff;
+border-right: 0;
+margin-top: -36px;
+margin-right: -36px;
+}
+#bubble-lb{
+position: relative;
+background: #b1afff;
+border-radius: .4em;
+  margin: 20px;
+}
+#bubble-lb:after {
+content: '';
+position: absolute;
+right: 0;
+top: 50%;
+width: 0;
+height: 0;
+border: 36px solid transparent;
+border-left-color: #b1afff;
+border-right: 0;
+border-top: 0;
+margin-top: -18px;
+margin-right: -36px;
+}
+#bubble-rt {
+position: relative;
+background: #b1afff;
+border-radius: .4em;
+  margin: 20px;
+}
+#bubble-rt:after {
+content: '';
+position: absolute;
+left: 0;
+top: 50%;
+width: 0;
+height: 0;
+border: 36px solid transparent;
+border-right-color: #b1afff;
+border-left: 0;
+border-bottom: 0;
+margin-top: -18px;
+margin-left: -36px;
+}
+#bubble-rc {
+position: relative;
+background: #b1afff;
+border-radius: .4em;
+  margin: 20px;
+}
+#bubble-rc:after {
+content: '';
+position: absolute;
+left: 0;
+top: 50%;
+width: 0;
+height: 0;
+border: 36px solid transparent;
+border-right-color: #b1afff;
+border-left: 0;
+margin-top: -36px;
+margin-left: -36px;
+}
+#bubble-rb {
+position: relative;
+background: #b1afff;
+border-radius: .4em;
+  margin: 20px;
+}
+#bubble-rb:after {
+content: '';
+position: absolute;
+left: 0;
+top: 50%;
+width: 0;
+height: 0;
+border: 36px solid transparent;
+border-right-color: #b1afff;
+border-left: 0;
+border-top: 0;
+margin-top: -18px;
+margin-left: -36px;
+}

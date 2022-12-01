@@ -1,0 +1,129 @@
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+/* 상단바 */
+.menu {
+    display: block;
+    width: 250px;
+    height: 700px;
+    font-size: 30px;
+    font-style: italic;
+	font-family: 'Amatic SC', cursive;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    padding-top: 10px;
+} 
+.menu ul {
+    list-style: none;
+}
+.menu li {
+    margin: 20px auto;
+    padding-top: 75px;
+    position: relative;
+}
+.menu li a {
+    color: #B1AFFF;
+    text-decoration: none;
+}
+.menu li a:hover p:after{
+    width: 100%;
+}
+.menu li a p {
+    display: inline-block; 
+    position: relative;
+}
+.menu li a p:after {
+    content:"";
+    width: 0;
+    height: 1.5px;
+    display: inline-block;
+    background: #fff;
+    position: absolute;
+    bottom:-1.5px;
+    left:0;
+    z-index:-1;
+    transition: 0.3s all;
+}
+
+/* page 1 */
+
+h1 {
+	font-family: 'Do Hyeon', sans-serif;
+	margin-top: 70px;
+    text-align: left;
+	color: #FAF4B7;
+    font-size: 45px;
+	font-weight: lighter;
+}
+h2{
+	font-family: 'Poor Story', cursive;
+	color: #cccaca;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 21px; 
+}
+.one p{
+    font-family: 'Poor Story', cursive;
+	color: #FAF4B7;
+	text-align: left;
+	font-size: 23px;
+}
+.one {
+    margin-left: 350px;
+    width: 600px; 
+    height: 700px; 
+}
+.two {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.profile {
+    border-radius: 30%;
+    display: inline-block;
+    padding: 5px;
+    background-color: #FAF4B7;
+    border: 7px solid #B1AFFF;
+}
+.profile img {
+    border-radius: 30%;
+}
+
+/* page 2 */
+
+.me{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    width:250px; height:250px;
+    margin:0 auto;
+}
+
+/* page 3 */
+
+h3{
+	font-family: 'Poor Story', cursive;
+	color: #FAF4B7;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 18px;
+}
+.lists{
+    text-align: center;
+	font-family: 'Jua', sans-serif;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic;
+}
+.list_text{
+    color: #ffffff;
+}
+.favorites {
+    display:inline-flex;
+    margin-top: 10px;
+}
