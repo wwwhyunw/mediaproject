@@ -41,7 +41,7 @@
     width: 0;
     height: 1.5px;
     display: inline-block;
-    background: #fff;
+    background: #eff2f8;
     position: absolute;
     bottom:-1.5px;
     left:0;
@@ -121,7 +121,7 @@ h3{
     font-style: italic;
 }
 .list_text{
-    color: #ffffff;
+    color: #eff2f8;
 }
 .favorites {
     display:inline-flex;
